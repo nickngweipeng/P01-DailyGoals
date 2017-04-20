@@ -21,7 +21,8 @@ tools:context="com.myapplicationdev.android.p01_dailygoals.MainActivity">
             android:textColor="@android:color/background_dark"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="16dp" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -64,7 +65,8 @@ tools:context="com.myapplicationdev.android.p01_dailygoals.MainActivity">
             android:textColor="@android:color/background_dark"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="97dp" />
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup1" />
 
         <TextView
             android:id="@+id/textView4"
@@ -107,7 +109,8 @@ tools:context="com.myapplicationdev.android.p01_dailygoals.MainActivity">
             android:textColor="@android:color/background_dark"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="195dp" />
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
         <TextView
             android:id="@+id/textView6"
@@ -150,7 +153,8 @@ tools:context="com.myapplicationdev.android.p01_dailygoals.MainActivity">
             android:textColor="@android:color/background_dark"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="276dp" />
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/radioGroup3" />
 
         <EditText
             android:id="@+id/reflectionText"
@@ -159,7 +163,8 @@ tools:context="com.myapplicationdev.android.p01_dailygoals.MainActivity">
             android:ems="10"
             android:inputType="textMultiLine"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="293dp" />
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
         <Button
             android:id="@+id/btnOk"
@@ -167,7 +172,8 @@ tools:context="com.myapplicationdev.android.p01_dailygoals.MainActivity">
             android:layout_height="wrap_content"
             android:text="ok"
             tools:layout_editor_absoluteX="8dp"
-            tools:layout_editor_absoluteY="336dp" />
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/reflectionText" />
 
     </android.support.constraint.ConstraintLayout>
 </ScrollView>
