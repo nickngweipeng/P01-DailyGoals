@@ -28,5 +28,16 @@ public class summary extends AppCompatActivity {
         tv2.setText(info[1]);
         tv3.setText(info[2]);
         tv4.setText(info[3]);
+
+        Button btnClose = (Button) findViewById(R.id.buttonClose);
+        btnClose.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                Intent i = new Intent(summary.this,
+                        MainActivity.class);
+                startActivity(i);
+            }
+        });
     }
 }

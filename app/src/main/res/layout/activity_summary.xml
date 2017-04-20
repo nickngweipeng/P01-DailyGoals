@@ -74,4 +74,13 @@
         app:layout_constraintTop_toBottomOf="@+id/tvQn3"
         tools:layout_editor_absoluteX="16dp" />
 
+    <Button
+        android:id="@+id/buttonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Close"
+        app:layout_constraintTop_toBottomOf="@+id/tvQn4"
+        tools:layout_editor_absoluteX="16dp" />
+
 </android.support.constraint.ConstraintLayout>
